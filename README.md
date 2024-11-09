@@ -13,7 +13,8 @@ The Normal and Pneumonia classes have a relatively larger number of samples comp
 COVID19 and Tuberculosis classes. 
 In the validation set, the imbalance is also present, though to a lesser extent due to the small 
 size of the validation set. 
-![Class Imbalance Bar Chart](disc_images/pneumonia 2.png)
+![Class Imbalance Bar Chart](disc_images/pneumonia2.png)
+
 ![Distribution of images in Train, Test, and Validation sets](disc_images/pneumonia-image1.png)
 
 work done:
