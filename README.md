@@ -1,23 +1,23 @@
 # Pneumonia_Detection
 
-Dataset Description 
-Dataset source : Chest X-Ray (Pneumonia,Covid-19,Tuberculosis)  
-https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis 
+## Dataset Description 
+Dataset source : [Chest X-Ray (Pneumonia,Covid-19,Tuberculosis)](https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis) 
 The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image 
 category (Normal/Pneumonia/Covid-19/Tuberculosis). A total of 7135 x-ray images are present. 
 
-Dataset Imbalance 
+## Dataset Imbalance 
 The dataset is highly imbalanced, especially for COVID19 and Tuberculosis classes which have 
 significantly fewer samples compared to the Pneumonia and Normal classes.  
 The Normal and Pneumonia classes have a relatively larger number of samples compared to the 
 COVID19 and Tuberculosis classes. 
 In the validation set, the imbalance is also present, though to a lesser extent due to the small 
 size of the validation set. 
-![Class Imbalance Bar Chart](disc_images/pneumonia2.png)
 
-![Distribution of images in Train, Test, and Validation sets](disc_images/pneumonia-image1.png)
+<img src="disc_images/pneumonia2.png" alt="Class Imbalance Bar Chart" length="450" width="450" />
+<img src="disc_images/pneumonia-image1.png" alt="Distribution of images in Train, Test, and Validation sets" length="450" width="450" />
 
-work done:
+
+## Work done:
 The project focuses to create a strong classification 
 model to differentiate between normal chest X-rays and the pneumonia, COVID-19,  
 tuberculosis by incorporating deep learning techniques, namely ResNeXt and VGG16 
